@@ -1,0 +1,79 @@
+body{
+    background-image: url("./school.jpg");
+    background-size : cover;
+}
+
+.head{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+
+.body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+
+#first{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation-name: firstAnimation;
+animation-duration: 4~5s;
+  animation-iteration-count: infinite;
+}
+
+#second{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation-name: firstAnimation;
+  animation-duration: 14s;
+}
+
+#third{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation-name: firstAnimation;
+  animation-duration: 14s;
+}
+
+#fourth{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation-name: firstAnimation;
+  animation-duration: 14s;
+}
+
+#fifth{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation-name: firstAnimation;
+  animation-duration: 14s;
+}
+
+@keyframes firstAnimation {
+    0%   { left:0px; top:0px;}
+    50%  { left:800px; top:0px;}
+    100% { left:0px; top:0px;}
+  }
+
+  @keyframes secondAnimation {
+}
+
+@keyframes thirdAnimation {
+}
+
+@keyframes fourthAnimation {
+}
+
+@keyframes fifthAnimation {
+}
