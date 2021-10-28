@@ -24,7 +24,7 @@ body{
     height: 300px;
     position: relative;
     animation-name: firstAnimation;
-animation-duration: 4~5s;
+animation-duration: 45s;
   animation-iteration-count: infinite;
 }
 
